@@ -1,9 +1,11 @@
 
 # Find PI to the Nth Digit
 # Program generate PI with decimal places up to value of n
-# Limit upto 400 decimal places.
+# Limit upto 400 decimal places of PI.
 # Ref: https://www.math.hmc.edu/funfacts/ffiles/20010.5.shtml
 # Github: https://github.com/sagarapatel/Python-Number-Projects/blob/master/Find_pi.py
+# IDE: PyCharm
+# Version: Python compatible 3.5
 
 from __future__ import division
 import math
