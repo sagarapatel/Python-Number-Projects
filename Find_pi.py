@@ -4,7 +4,7 @@
 # Limit upto 10000 decimal places of PI.
 # Github: https://github.com/sagarapatel/Python-Number-Projects/blob/master/Find_pi.py
 # IDE: PyCharm
-# Version: Python compatible 3.5
+# Version: Python 3.5 compatible
 
 import math
 import decimal
