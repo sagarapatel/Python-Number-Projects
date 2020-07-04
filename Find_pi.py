@@ -36,6 +36,6 @@ while True:
     except ValueError:
         response = input("Invalid Input. Would you like to Exit.... (y/n) ")
         if response == 'y' or response == 'Y':
-            continue
-        else:
             break
+        else:
+            continue
