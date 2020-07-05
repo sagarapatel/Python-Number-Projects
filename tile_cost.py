@@ -13,7 +13,7 @@ while True:
         cost = int(input("Please enter cost of tiles per sq feet "))
         sq_feet = height * width
         cost = sq_feet * cost
-        print("$"str(cost) + "will be total cost of the tiles")
+        print("$" + str(cost) + " will be total cost of the tiles")
         break
     except ValueError:
         print("Please Enter1 correct value. Try Again.")
