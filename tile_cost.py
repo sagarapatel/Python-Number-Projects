@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Find total cost of the tiles for the given measurements and price of tiles
-# # https://github.com/sagarapatel/Python-Number-Projects/blob/master/tile_cost.py
+# https://github.com/sagarapatel/Python-Number-Projects/blob/master/tile_cost.py
 # IDE PyCharm
 # Python 3.5 compatible
 
