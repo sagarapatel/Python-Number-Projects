@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Find Fibonacci Sequence till Nth Digit
 # Program generate Fibonacci Sequence till user want
-# Final Github path
+# https://github.com/sagarapatel/Python-Number-Projects/blob/master/fibonacci_sequence.py
 # IDE: PyCharm
 # Version: Python 3.5 compatible
 

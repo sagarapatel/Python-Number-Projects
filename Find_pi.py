@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Find PI to the Nth Digit
 # Program generate PI with decimal places up to value of n
-# Limit upto 10000 decimal places of PI.
+# Limit up to 10000 decimal places of PI.
 # Github: https://github.com/sagarapatel/Python-Number-Projects/blob/master/Find_pi.py
 # IDE: PyCharm
 # Version: Python 3.5 compatible
