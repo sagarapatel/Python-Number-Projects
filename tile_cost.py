@@ -16,5 +16,5 @@ while True:
         print("$" + str(cost) + " will be total cost of the tiles")
         break
     except ValueError:
-        print("Please Enter1 correct value. Try Again.")
+        print("Please Enter correct value. Try Again.")
         continue
