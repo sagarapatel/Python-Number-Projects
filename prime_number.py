@@ -9,7 +9,7 @@ n = 'y'
 
 # Function generate prime numbers individually until user wants
 def prime_number(n):
-    for i in range(2, 100):
+    for i in range(2, 10000):
         if n == 'y' or n == 'Y':
             for num in range(2, i):
                 if (i % num) == 0:
