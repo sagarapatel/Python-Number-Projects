@@ -2,7 +2,7 @@
 # Generate prime numbers until user wants
 # https://github.com/sagarapatel/Python-Number-Projects/blob/master/prime_number.py
 # IDE PyCharm
-# Python 3.5 compatible
+# Python 3.8 compatible
 
 n = 'y'
 

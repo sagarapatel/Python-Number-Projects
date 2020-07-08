@@ -3,7 +3,7 @@
 # Program generate Fibonacci Sequence till user want
 # https://github.com/sagarapatel/Python-Number-Projects/blob/master/fibonacci_sequence.py
 # IDE: PyCharm
-# Version: Python 3.5 compatible
+# Version: Python 3.8 compatible
 
 
 # Function to calculate fibonacci value

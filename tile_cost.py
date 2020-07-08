@@ -2,7 +2,7 @@
 # Find total cost of the tiles for the given measurements and price of tiles
 # https://github.com/sagarapatel/Python-Number-Projects/blob/master/tile_cost.py
 # IDE PyCharm
-# Python 3.5 compatible
+# Python 3.8 compatible
 
 
 # Calculates the cost of tiles through area given by user.

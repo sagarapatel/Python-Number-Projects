@@ -4,13 +4,14 @@
 # Limit up to 10000 decimal places of PI.
 # Github: https://github.com/sagarapatel/Python-Number-Projects/blob/master/Find_pi.py
 # IDE: PyCharm
-# Version: Python 3.5 compatible
+# Version: Python 3.8 compatible
 
 import math
 import decimal
 from decimal import Decimal
 
-#Function for calculating and returning pi value
+
+# Function for calculating and returning pi value
 def compute_pi(n):
     decimal.getcontext().prec = n + 1
     pi = Decimal(0)
@@ -20,13 +21,14 @@ def compute_pi(n):
                                            Decimal(1 / (8 * k + 5)) - Decimal(1 / (8 * k + 6)))
     return pi
 
-#Exceptions to check and handle Errors and out of range input.
+
+# Exceptions to check and handle Errors and out of range input.
 while True:
     try:
         value = input("Enter Decimal places you want for pi between 1 and 10000 ")
         n = int(value)
         if n in range(1, 10000):
-            print("Value of pi with "+ str(n) +" decimals is " + str(compute_pi(n)))
+            print("Value of pi with " + str(n) + " decimals is " + str(compute_pi(n)))
         else:
             response = input("Invalid Input. Would you like to Try Again.... (y/n) ")
             if response == 'y' or response == 'Y':
