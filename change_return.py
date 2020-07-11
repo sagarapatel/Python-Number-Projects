@@ -4,7 +4,9 @@
 # IDE PyCharm
 # Python 3.8 compatible
 
+base = 0.05
 cost = float(input("Please enter the cost of the product "))
+cost = base * round(cost/base)
 received = float(input("Please enter money given by customer "))
 change = received - cost
 
@@ -52,4 +54,4 @@ if change >= 0.10:
 if change >= 0.05:
     change = compute(change, 0.05, 'Coin(s)')
 
-print(change)
+print("Total change return to customer is ${:.2f}".format(received-cost))
