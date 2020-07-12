@@ -23,10 +23,8 @@ def check_digit(n):
         return float(n)
     for x in operators.keys():
         num_one, sign, num_two = n.partition(x)
-        try:
+        if sign in operators:
             return operators[sign](check_digit(num_one), check_digit(num_two))
-        finally:
-            print("Invalid input operator.")
 
 
 equation = input("Enter math equation ")
