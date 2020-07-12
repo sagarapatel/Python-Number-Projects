@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Program ask cost of product and money given by customer and display change in denominations
+# Program does the multiple calculations of basic math operators
 # https://github.com/sagarapatel/Python-Number-Projects/blob/master/calculator.py
 # IDE PyCharm
 # Python 3.8 compatible
