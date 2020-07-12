@@ -4,26 +4,30 @@
 # IDE PyCharm
 # Python 3.8 compatible
 
-from operator import truediv, mul, add, sub
+from operator import truediv, mul, add, sub, pow, mod
 
+# Dictionaries of different operators
 operators = {
+    "**": pow,
     "+": add,
     "-": sub,
+    "/": truediv,
     "*": mul,
-    "/": truediv
+    "%": mod
 }
 
-equation = input("Enter math equation ")
 
-
+# Function convert digit into float and operate from given dictionary
 def check_digit(n):
     if n.isdigit():
         return float(n)
     for x in operators.keys():
         num_one, sign, num_two = n.partition(x)
-        if sign in operators:
-            print(num_one, sign, num_two)
+        try:
             return operators[sign](check_digit(num_one), check_digit(num_two))
+        finally:
+            print("Invalid input operator.")
 
 
-print(str(check_digit(equation)))
+equation = input("Enter math equation ")
+print("Answer is: " + str(check_digit(equation)))
