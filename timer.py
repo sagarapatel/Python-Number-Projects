@@ -5,25 +5,28 @@
 # Python 3.8 compatible
 
 import time
-import sys
 import os
+import sys
 
 hours = 0
-minutes = 10
+minutes = 1
 seconds = minutes * 60
-start_time = time.time()
-y = current_time = time.gmtime((start_time + seconds) - time.time())
+current_time = time.time()
+add_time = current_time + seconds
+start_timer = time.gmtime(add_time - time.time())
 
 
 while True:
     try:
-        current_time = time.gmtime((start_time + seconds) - time.time())
-        time_str = time.strftime("%M minutes, %S seconds ", current_time)
-        x = current_time
-        if x < y:
+        timer = time.gmtime(add_time - time.time())
+        if timer < start_timer:
             os.system("cls")
+            time_str = time.strftime("%H hour, %M minutes, %S seconds ", timer)
             print(time_str)
-            y = x
-        sys.stdout.flush()
+            start_timer = timer
+        elif time.time() > add_time:
+            os.system("cls")
+            print("Time up")
+            break
     except KeyboardInterrupt:
-        break
+        sys.exit(0)
