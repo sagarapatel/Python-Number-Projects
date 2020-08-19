@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Program convert different units according to user input
-# https://github.com/sagarapatel/Python-Number-Projects/blob/master/calculator.py
+# https://github.com/sagarapatel/Python-Number-Projects/blob/master/unit_convertor.py
 # IDE PyCharm
 # Python 3.8 compatible
 
