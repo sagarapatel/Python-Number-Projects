@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Program ask cost of product and money given by customer and display change in denominations
+# Program use Luhn algorithm to check for credit card number and return boolean.
 # https://github.com/sagarapatel/Python-Number-Projects/blob/master/credit_card_check.py
 # IDE PyCharm
 # Python 3.8 compatible

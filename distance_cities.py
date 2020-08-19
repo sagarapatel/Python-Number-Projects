@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Program convert different units according to user input
+# Program calculate distance between two cities using Nominatim library.
 # https://github.com/sagarapatel/Python-Number-Projects/blob/master/distance_cities.py
 # IDE PyCharm
 # Python 3.8 compatible
