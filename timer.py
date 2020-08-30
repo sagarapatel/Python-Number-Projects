@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Program convert different units according to user input
+# Program does calculate time left and sound an alarm.
 # https://github.com/sagarapatel/Python-Number-Projects/blob/master/timer.py
 # IDE PyCharm
 # Python 3.8 compatible
